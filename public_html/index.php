@@ -1,0 +1,651 @@
+<!--S//컨텐츠헤더-->
+<?php
+include __DIR__ . "/inc/head.php";
+?>
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/respon.css">   
+<?php
+include __DIR__ . "/inc/header.php";
+?>
+<div class="wingBannerWrap">
+    <ul>
+        <li class="wing01">
+            <a href="javascript:void(0);">
+            </a>
+        </li>
+        <li class="wing02">
+            <a href="javascript:void(0);">
+            </a>
+        </li>
+        <li class="wing03 top_btn">
+            <a href="">
+            </a>
+        </li>
+    </ul>
+</div>
+<section id="section01">
+    <div class="center">
+        <video src="images/movie.mp4" autoplay="autoplay" loop controls muted="muted" type="video/mp4" id="vid"></video>
+        <div class="ab_notice">본 영상은 홈페이지 구성의 이해를 돕기위해 사용되었으며 본페이지는 현재 작업중인 비공개 홈페이지입니다.<br>홈페이지 공개시 영상은 삭제할 것이며, 본 영상을
+        상업적으로
+        이용할 목적이 전혀 없음을 밝힙니다.
+      </div>
+        <!-- <p class="txt Playfair" data-splitting>Hi! Our name is</p>    
+        <h2 class="tit" data-splitting>HiPOPS</h2>
+        <img src="images/main-2.gif" alt="" class="sec01_gif">             -->
+        <div class="w1630 mt_100vh">
+            <div class="txt_box">
+                <p class="txt1">Who we are</p>
+                <h4 class="txt2">선한 영향력을 세상에 전하는 
+                    <span class="svg_wrap svg1_wrap">
+                        크리에이터 그룹
+                        <svg xmlns="http://www.w3.org/2000/svg" width="342" height="119" viewBox="0 0 342 119" fill="none" class="svg1_txt">
+                            <path d="M31.56 37.4028C50.4095 24.235 106.393 6.10077 179.529 6.10077C270.949 6.10077 335.98 31.3158 339.75 56.5309C345.495 94.9507 251.114 119.343 157.809 116.821C64.5036 114.3 -3.43939 111.354 2.34313 65.7764C6.6158 32.0996 69.2591 7.04301 89.0511 2" stroke="black" stroke-width="3"/ id="svg1_txt">
+                        </svg>
+                    </span>
+                </h4>
+                <p class="txt3">
+                    엔터테인먼트와 미디어는 대중에게 즐거움을 전해야 하는 의무와 책임을 가지고 있습니다. <br>
+                    하이팝스 엔터테인먼트는 세상이 쥐어준 의무와 책임을 다하기 위해 미디어를 통한<em class="br"></em>
+                    즐거움을 전달함과 동시에 사랑의 마음을 모아 나누는 기쁨을 전하고 있습니다.<br><br>
+
+                    단순한 즐거움을 전달하는 것이 아닌 미디어를 통한 세상의 희망과 행복을 전하는 <em class="br"></em>
+                    함께 사는 사회를 만들어 가고자 합니다.<br>
+                    앞으로 하이팝스 엔터테인먼트가 그리는 미디어 세상의 사랑을 통해 <em class="br"></em>
+                    <span class="svg_wrap svg2_wrap">
+                        대중의 즐거움을 행복으로 저축하여 나누는 기업이 되겠습니다.
+                        <svg xmlns="http://www.w3.org/2000/svg" width="569" height="17" viewBox="0 0 569 17" fill="none"  class="svg2_txt">
+                            <path d="M1 15C111.634 6.70012 379.922 -6.11491 568 9.02408" stroke="black" stroke-width="3"/ id="svg2_txt">
+                        </svg>
+                    </span>
+                </p>
+            </div>
+        </div>    
+    </div>
+</section>
+<section id="section_01_02">
+    <div class="content_left">
+      <div class="about_txt">
+        <img src="images/txt_about.png" alt="" class="txt_left">
+        <div class="svg_wrap svg_line_wrap">
+          <svg width="190" height="9" viewBox="0 0 190 9" fill="none" xmlns="http://www.w3.org/2000/svg"
+            class="svg_line">
+            <path d="M1 7C37.6829 3.80774 126.639 -1.12112 189 4.70157" stroke="black" stroke-width="3" />
+          </svg>
+        </div>
+        <a href="" download="" class="flex a_i_center j_c_center c_down_btn mb190_80">
+          <span>회사소개서</span>
+          <img src="images/down.svg" alt="">
+        </a>
+      </div>
+      <img src="images/img_about_left.png" alt="" class="about_left">
+
+    </div>
+    <div class="content_right">
+      <div class="swiper section_01_swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide"><img src="images/slider_01.png" alt=""></div>
+          <div class="swiper-slide"><img src="images/slider_02.png" alt=""></div>
+          <div class="swiper-slide"><img src="images/slider_03.png" alt=""></div>
+          <div class="swiper-slide"><img src="images/slider_04.png" alt=""></div>
+        </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+      <div>
+        <div class="company_intro" data-aos="fade-up">
+          <ul>
+            <li>
+              <span class="sp01">회사명</span>
+              <span class="sp02">하이팝스 엔터테인먼트</span>
+            </li>
+            <li>
+              <span class="sp01">대표자</span>
+              <span class="sp02">황원섭</span>
+            </li>
+            <li>
+              <span class="sp01">설립일</span>
+              <span class="sp02">2023년 07월 07일</span>
+            </li>
+            <li>
+              <span class="sp01">회사위치</span>
+              <span class="sp02">서울특별시 강남구 신사동 663, 3~5층</span>
+            </li>
+            <li>
+              <span class="sp01">주요사업</span>
+              <span class="sp02">드라마, 영화 등 콘텐츠 제작, 연예 매니지먼트, 음반 및 음원 제작, 프로그램 공급</span>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+</section>
+<section id="section02">
+    <div class="inner">
+      <video muted autoplay playsinline id="video">
+        <source src="images/hipops_bg.mp4" type="video/mp4">
+      </video>
+    </div>
+</section>
+<section id="section03">
+    <div class="inner">
+        <div class="sec03_top">
+            <h5 data-aos="fade-up">
+                <span class="Playfair">What we do</span><br>
+                가치를 실현하는 크리에이티브
+            </h5>
+            <p data-aos="fade-up" data-aos-delay="200">
+                하이팝스 엔터테인먼트가 만드는 다양한 미디어를 통해 대중과 소통하며 더 나은 미래를 만들어가는 가치를 실현하고자 <em class="br"></em>
+                우리만의 크리에이티브로 선한 영향력을 제공합니다.
+            </p>      
+            <img src="images/illust.png" alt="" data-aos="fade-up" data-aos-delay="300" class="illust">  
+        </div>
+        <div class="sec03_bot">
+            <span class="svg_wrap svg3_wrap bot_tit">
+                주요사업분야
+                <svg xmlns="http://www.w3.org/2000/svg" width="210" height="39" viewBox="0 0 210 39" fill="none" class="svg3_txt">
+                    <path d="M44.5675 26.5601C43.8436 26.6107 43.8731 26.6201 44.5675 26.5601V26.5601Z" fill="white"/>
+                    <path d="M37 10.7128L1 15.7128C59 10.3794 181.8 0.312754 209 2.71275C156 15.7128 67 23.7128 52 25.7128C37 27.7128 41 25.7128 83 25.7128C125 25.7128 155 18.7128 150 25.7128C146 31.3128 136.333 35.3794 132 36.7128" stroke="white" stroke-width="3"/ id="svg3_txt">
+                </svg>
+            </span>
+            <div class="mo_none">
+                <ul>
+                    <li class="li01" data-aos="fade-up" data-aos-delay="200" >
+                        <div class="li_inner">
+                            <h6>Producing</h6>
+                            <div>
+                                <p>프로듀싱</p>
+                                <span>
+                                    영화, 드라마 등 영상 & 음악 컨텐츠 <em class="br"></em>
+                                    기획 제작 및 신인 발굴
+                                </span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="li02" data-aos="fade-up">
+                        <div class="li_inner">
+                            <h6>Marketing</h6>
+                            <div>
+                                <p>마케팅</p>
+                                <span>
+                                    공동프로모션, 공중파, <em class="br"></em>
+                                    케이블 온/오프라인 컨텐츠
+                                </span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="li03" data-aos="fade-up" data-aos-delay="200">
+                        <div class="li_inner">
+                            <h6>Management</h6>
+                            <div>
+                                <p>매니지먼트</p>
+                                <span>
+                                    관련 Biz 경험 및 핵심 역량 확보  <em class="br"></em>
+                                    아티스트 매니지먼트 사업
+                                </span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="li04" data-aos="fade-up">
+                        <div class="li_inner">
+                            <h6>Publishing</h6>
+                            <div>
+                                <p>퍼블리싱</p>
+                                <span>
+                                    음악출판 및 영화, 드라마 등  <em class="br"></em>
+                                    영상 컨텐츠 국내외 저작권 사업,  <em class="br"></em>
+                                    라이브러리 사업
+                                </span>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="mo_block">
+                <ul>
+                    <li class="li01" data-aos="fade-up">
+                        <div class="li_inner">
+                            <h6>Producing</h6>
+                            <div>
+                                <p>프로듀싱</p>
+                                <span>
+                                    영화, 드라마 등 영상 & 음악 컨텐츠 <em class="br"></em>
+                                    기획 제작 및 신인 발굴
+                                </span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="li02" data-aos="fade-up">
+                        <div class="li_inner">
+                            <h6>Marketing</h6>
+                            <div>
+                                <p>마케팅</p>
+                                <span>
+                                    공동프로모션, 공중파, <em class="br"></em>
+                                    케이블 온/오프라인 컨텐츠
+                                </span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="li03" data-aos="fade-up" data-aos-delay="200">
+                        <div class="li_inner">
+                            <h6>Management</h6>
+                            <div>
+                                <p>매니지먼트</p>
+                                <span>
+                                    관련 Biz 경험 및 핵심 역량 확보  <em class="br"></em>
+                                    아티스트 매니지먼트 사업
+                                </span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="li04" data-aos="fade-up" data-aos-delay="200" >
+                        <div class="li_inner">
+                            <h6>Publishing</h6>
+                            <div>
+                                <p>퍼블리싱</p>
+                                <span>
+                                    음악출판 및 영화, 드라마 등  <em class="br"></em>
+                                    영상 컨텐츠 국내외 저작권 사업,  <em class="br"></em>
+                                    라이브러리 사업
+                                </span>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>            
+        </div>
+    </div>
+</section>
+<section id="section04">
+    <div class="inner">
+        <p class="tit Playfair" data-aos="fade-up">Artist</p>
+        <div class="slide_all_wrap">
+            <div class="swiper section04_swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="images/artist-1.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/artist-2.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/artist-1.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/artist-2.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>       
+    </div>
+</section>
+<section id="section05">
+    <div class="w1630">
+        <div class="sec05_top">
+            <p class="Playfair txt" data-aos="fade-up">Audition</p>
+            <h3 class="tit" data-aos="fade-up" data-aos-delay="200">당신의 꿈이 실현 됩니다.</h3>
+            <p class="desc" data-aos="fade-up" data-aos-delay="300">
+                하이팝스 엔터테인먼트에서는 끼와 열정 가득한 <em class="br"></em>
+                신인 아티스트를 기다립니다.
+            </p>
+            <span class="svg_wrap svg4_wrap">
+                <svg xmlns="http://www.w3.org/2000/svg" width="72" height="362" viewBox="0 0 72 362" fill="none" class="svg4_txt">
+                    <path d="M32.3013 1C53.8013 27 64.9833 68 68.1423 80.5C71.3013 93 73.1423 119.5 50.1423 132.5C31.6236 142.967 16.6423 144 9.1423 137.5C1.6423 131 -1.09845 113.387 5.6423 111.5C18.1423 108 36.1423 124.5 43.1423 147.5C50.1423 170.5 49.6423 187.5 47.6423 201C45.6423 214.5 -5.19855 334.5 27.6423 360.5" stroke="black" stroke-width="3"/ id="svg4_txt">
+                </svg>
+            </span>
+        </div>      
+        <div class="step_box">
+            <p class="flex a_i_baseline step_tit" data-aos="fade-up">
+                <span class="tit01">AUDITION STEP</span>
+                <span class="tit02">오디션 전형은 상황에 따라 변경 될 수 있습니다.</span>
+            </p>
+            <ul class="step_ul">
+                <li>
+                    <span>STEP 01</span><br>
+                    <h6>오디션 지원</h6>
+                </li>
+                <li>
+                    <span>STEP 02</span><br>
+                    <h6>1차 서류심사</h6>
+                </li>
+                <li>
+                    <span>STEP 03</span><br>
+                    <h6>2차 현장 오디션</h6>
+                </li>
+                <li>
+                    <span>STEP 04</span><br>
+                    <h6>3차 개별 미팅</h6>
+                </li>
+            </ul>
+            <div class="step_bot">
+                <img src="images/audition-1.png" alt="" class="audition_img01">
+                <img src="images/audition-2.png" alt="" class="audition_img02">
+                <img src="images/audition-3.png" alt="" class="audition_img03">                    
+                <ul class="step_info">
+                    <li>
+                        <div class="left_box">
+                            <p class="tit">모집 분야</p>
+                        </div>
+                        <div class="right_box">
+                            <p class="desc">연기자 / 가수 / 작가</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="left_box">
+                            <p class="tit">모집 방법</p>
+                        </div>
+                        <div class="right_box">
+                            <p class="desc">수시 모집</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="left_box">
+                            <p class="tit">전형 안내</p>
+                        </div>
+                        <div class="right_box">
+                            <p class="desc">이메일을 통한 1차 접수 후 합격자에 한해 개별 연락 후 오디션 진행</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="left_box">
+                            <p class="tit">제출 자료</p>
+                            <div class="mo_block12 audition_gif">
+                                <img src="images/mobile_audition.gif" alt="">
+                            </div>
+                        </div>
+                        <div class="right_box">
+                            <div class="dep02">
+                                <p class="tit">연기자 / 가수</p>
+                                <p class="desc">(1) 지원서</p>
+                            </div>
+                            <div class="dep02">
+                                <p class="tit"></p>
+                                <p class="desc">(2) 프로필 사진 3장 이상(얼굴 클로즈업, 전신 사진 포함, 과도한 보정 및 사진 수정 금지)</p>
+                            </div>
+                            <div class="dep02 solid">
+                                <p class="tit"></p>
+                                <p class="desc">(3) 그 외 영상, 포트폴리오 등 자유 첨부</p>
+                            </div>
+                            <div class="dep02">
+                                <p class="tit">작가</p>
+                                <p class="desc">(1) 지원서</p>
+                            </div>
+                            <div class="dep02">
+                                <p class="tit"></p>
+                                <p class="desc">(2) 경력이 기재된 자유 형식의 프로필 및 작품</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="left_box">
+                            <p class="tit">지원 방법</p>
+                        </div>
+                        <div class="right_box">
+                            <p class="desc">지원서를 다운받아 작성한 후 제출 자료와 함께 이메일로 접수</p>
+                        </div>
+                    </li>                   
+                </ul>
+            </div>                
+            <div class="down_wrap flex a_i_center">
+                <a href="" download="" class="flex a_i_center j_c_center c_down_btn">
+                    <span>지원서 다운로드</span>
+                    <img src="images/down.svg" alt="">
+                </a>
+                <a href="#" onclick="clip(); return false;" class="flex a_i_center j_c_center c_down_btn on ml10">
+                    <span>hipops@hipops.co.kr</span>                    
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="section06">
+    <div class="w1630">
+        <h5 data-aos="fade-up">Contact</h5>
+        <div class="flex flex_wrap j_c_between sec06_inner">
+            <div class="left_box">
+                <ul>
+                    <li>
+                        <span class="tit">Head Office</span>
+                        <span class="desc">서울특별시 강남구 신사동 663, 3~5층</span>
+                    </li>
+                    <li>
+                        <span class="tit">전화</span>
+                        <span class="desc">1855-2513</span>
+                    </li>
+                    <li>
+                        <span class="tit">팩스</span>
+                        <span class="desc">02-6442-2513</span>
+                    </li>
+                    <li>
+                        <span class="tit">이메일</span>
+                        <span class="desc">hipops@hipops.co.kr</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="right_box">
+                <div id="daumRoughmapContainer1692708869949" class="map root_daum_roughmap root_daum_roughmap_landing"></div>
+
+                <script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+
+                <!-- 3. 실행 스크립트 -->
+                <script charset="UTF-8">
+                    new daum.roughmap.Lander({
+                        "timestamp" : "1692708869949",
+                        "key" : "2fx87",
+                        "mapWidth" : "960",
+                        "mapHeight" : "200"
+                    }).render();
+                </script>
+            </div>
+        </div>       
+    </div>  
+</section>
+<section id="section07">
+    <div class="w1630 flex flex_wrap">
+        <div class="tit_box">
+            <p class="Playfair txt" data-aos="fade-up">Investment</p>
+            <h5 data-aos="fade-up" data-aos-delay="200">투자문의</h5>
+            <p class="call_p" data-aos="fade-up" data-aos-delay="300">문의사항이 있다면 언제든 연락 주세요.</p>
+        </div>
+        <div class="form_box">
+            <form action="">
+                <div class="flex j_c_between form_inner flex_wrap">
+                    <div class="left_box">
+                        <label for="">개인정보 수집 및 이용 동의 (필수)</label>
+                        <div class="gray_box">
+                            <p>
+                                1.개인정보의 수집, 이용 목적<br>
+                                수집하는 개인정보는 상담을 위한 목적으로만 사용되며, 관련 담당자를 제외하고는 
+                                함부로 열람할 수 없습니다.<br><br>
+
+                                2. 수집하려는 개인정보의 항목<br>
+                                개인정보보호법 제 15조에 따라 개인정보의 수집, 이용 시 본인의 동의를 얻어야 하는 
+                                정보를 수집하고있습니다. 수집, 이용 목적에 따라 수집하고있는 항목은 아래와 같습니다.<br><br>
+
+                                필수항목 : 이름, 연락처, 이메일주소, 의뢰내용<br>
+                                수집된 개인정보는 상담이 완료된 후 6개월 간 보유하고 즉시 파기합니다.
+                            </p>
+                        </div>      
+                        <div class="check_box_wrap mt10">
+                            <label class="checkbox">
+                                <input type="checkbox" name="" value=""/>
+                                <span class="checkbox_icon"></span>
+                                <span class="check_txt" style="cursor: pointer;"> 동의합니다</span> 
+                            </label>	
+                        </div>
+                    </div>
+                    <div class="right_box">
+                        <label for="">내용</label>
+                        <textarea name="" id="" placeholder="요청내용을 입력하세요."></textarea>
+                        <div class="w50 flex flex_wrap j_c_between">
+                            <div class="border_b flex a_i_baseline">
+                                <label for="">이름</label>
+                                <input type="text" placeholder="의뢰인명을 입력하세요 (ex 김하이)">
+                            </div>
+                            <div class="border_b flex a_i_baseline">
+                                <label for="">회사명</label>
+                                <input type="text" placeholder="회사명을 입력하세요">
+                            </div>
+                        </div>
+                        <div class="w50 flex flex_wrap j_c_between">
+                            <div class="border_b flex a_i_baseline">
+                                <label for="">연락처</label>
+                                <input type="text" placeholder="입력형식 010-0000-0000">
+                            </div>
+                            <div class="border_b flex a_i_baseline">
+                                <label for="">이메일</label>
+                                <input type="text" placeholder="입력형식 test@test.co.kr">
+                            </div>
+                        </div>                
+                    </div>
+                </div>  
+                <div class="right">
+                    <input type="submit" value="문의하기" class="submit_btn">
+                </div>
+            </form>
+        </div>
+    </div>
+    <textarea name="" id="" style="display: none;"></textarea>
+</section>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/ScrollToPlugin.min.js"></script>
+<script>
+
+    document.getElementById('vid').play();
+
+    Splitting();
+
+$(function () {
+  $(".selectmenu").selectmenu();
+
+  $(window).scroll(function () {
+    var scrollY = $(this).scrollTop();  // 스크롤 위치 갱신
+
+    var svg1 = $('#section01 .txt_box .svg1_wrap');
+    var svg2 = $('#section01 .txt_box .svg2_wrap');
+    var svg3 = $('#section03 .svg3_wrap');
+    var svg4 = $('#section05 .svg4_wrap');
+    var svg5 = $('#section_01_02 .svg_line_wrap');
+    var svg1Offset = svg1.offset().top;
+    var svg2Offset = svg2.offset().top;
+    var svg3Offset = svg3.offset().top;
+    var svg4Offset = svg4.offset().top;
+    var svg5Offset = svg5.offset().top;
+
+    // 스크롤 위치와 각 요소의 위치를 비교하여 on 클래스 추가
+    if (scrollY >= svg1Offset - 2000) {
+      svg1.addClass('on');
+    }
+    if (scrollY >= svg2Offset - 2000) {
+      svg2.addClass('on');
+    }
+    if (scrollY >= svg3Offset - 2000) {
+      svg3.addClass('on');
+    }
+    if (scrollY >= svg4Offset - 2500) {
+      svg4.addClass('on');
+    }
+    if (scrollY >= svg5Offset - 1300) {
+      svg5.addClass('on');
+    }
+  });
+
+  var video = document.getElementById('video');
+  var videoOffset = $('#video').offset().top;
+
+  $(window).on('scroll', function () {
+    var scrollPos = $(this).scrollTop();
+    if (scrollPos > videoOffset) {
+      video.play();
+    }
+  });
+
+});
+</script>
+<script>
+const panel = document.querySelector("#section02");
+
+if (window.innerWidth > 1024) {
+  ScrollTrigger.create({
+    trigger: panel,
+    start: "top top",
+    pin: true,
+    pinSpacing: false
+  });
+
+}
+
+function clip() {
+
+  var url = '';
+  var textarea = document.createElement("textarea");
+  document.body.appendChild(textarea);
+  url = 'hipops@hipops.co.kr';
+  textarea.value = url;
+  textarea.select();
+  document.execCommand("copy");
+  document.body.removeChild(textarea);
+  alert("메일 주소가 복사되었습니다.")
+}
+
+$(document).ready(function () {
+
+  var swiper = new Swiper('.section_01_swiper', {
+    // direction: 'vertical',
+    loop: true,
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false,
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  });
+
+  var swiper = new Swiper(".section04_swiper", {
+    slidesPerView: 2,
+    spaceBetween: 0,
+    breakpoints: {
+      540: {
+        slidesPerView: 1,
+        spaceBetween: 0,
+      },
+      768: {
+        slidesPerView: 2,
+        spaceBetween: 0,
+      },
+    },
+    speed: 1000,
+    fadeEffect: {
+      crossFade: true,
+    },
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false,
+      stopOnLastSlide: true,
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    // observer: true,	// 추가
+    // observeParents: true,	// 추가
+  });
+})
+
+  </script>
+<!--푸터E//-->
+<?php
+include __DIR__ . "/inc/footer.php";
+?> 
+

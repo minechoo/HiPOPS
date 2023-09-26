@@ -1,0 +1,650 @@
+header,
+footer,
+section,
+article,
+aside,
+nav,
+hgroup,
+details,
+menu,
+figure,
+figcaption {
+  display: block;
+}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+video,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+address {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  background: transparent;
+  list-style: none;
+}
+span,
+a {
+  display: inline-block;
+}
+a {
+  text-decoration: none;
+  font-style: normal;
+}
+html,
+body {
+  font-family: "Noto Sans KR";
+  font-weight: 100;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  line-height: normal;
+  -webkit-overflow-scrolling: touch;
+}
+body {
+  color: #000;
+  letter-spacing: -1px;
+  -webkit-text-size-adjust: none; /*아이폰가로 폰트확대 방지*/
+  vertical-align: top;
+}
+img {
+  border: 0;
+  max-width: 100%;
+  vertical-align: top;
+}
+form {
+  display: inline;
+}
+fieldset {
+  border: 0;
+}
+legend {
+  display: none;
+}
+input,
+select,
+radio,
+div {
+  vertical-align: top;
+}
+input[type="submit"],
+button {
+  cursor: pointer;
+}
+input[type="radio"] {
+  padding: 0;
+  margin: 0;
+  vertical-align: middle;
+}
+input[type="checkbox"] {
+  margin: 0;
+  vertical-align: middle;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+/* guide */
+.br320 {
+  display: block;
+}
+.br375,
+.br412,
+.br1200 {
+  display: none;
+}
+.inner {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* font */
+html {
+  font-size: 62.5%; /*font-size:10px;*/
+}
+
+/* footer */
+footer {
+  color: rgb(184, 184, 184);
+  background: #272626;
+  text-align: center;
+  line-height: 16px;
+  padding: 3% 0;
+  font-weight: 300;
+}
+
+footer .copy_line {
+  padding: 0 8px;
+  background: url("../img/copy_line.gif") no-repeat center center;
+}
+footer address {
+  font-style: normal;
+  font-size: 1.4rem;
+  line-height: 1.9rem;
+}
+footer p {
+  color: #fff;
+  font-weight: bold;
+  padding: 1.8rem 0 1rem;
+  font-size: 1.6rem;
+}
+.txt_point {
+  animation: txt_point 0.9s linear 0s infinite alternate;
+}
+@keyframes txt_point {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@media screen and (min-width: 375px) {
+  .br375 {
+    display: block;
+  }
+  .br320,
+  .br412,
+  .br1200 {
+    display: none;
+  }
+}
+@media screen and (min-width: 412px) {
+  /*galaxy note9*/
+  .br412 {
+    display: block;
+  }
+  .br320,
+  .br375,
+  .br1200 {
+    display: none;
+  }
+}
+@media screen and (min-width: 415px) {
+  .inner {
+    max-width: 41.2rem;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .br1200 {
+    display: block;
+  }
+  .br320,
+  .br375,
+  .br412 {
+    display: none;
+  }
+  .inner {
+    max-width: 120rem;
+  }
+  /*footer*/
+  .footerBg {
+    padding: 4rem 0 6rem;
+    background: none;
+  }
+  .footer {
+    font-size: 1.4rem;
+  }
+}
+
+/*=========================start css=============================*/
+/*preloader*/
+.spinner-wrapper {
+  position: fixed;
+  z-index: 99999999;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #f88cba;
+}
+.spinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 3.75rem;
+  height: 1.25rem;
+  margin: -0.625rem 0 0 -1.875rem;
+  text-align: center;
+}
+.spinner > div {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 100%;
+  background-color: #fff;
+  -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+  animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+}
+.spinner .bounce1 {
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+.spinner .bounce2 {
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+@-webkit-keyframes sk-bouncedelay {
+  0%,
+  80%,
+  100% {
+    -webkit-transform: scale(0);
+  }
+  40% {
+    -webkit-transform: scale(1);
+  }
+}
+@keyframes sk-bouncedelay {
+  0%,
+  80%,
+  100% {
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+  }
+  40% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+/*floatMenu*/
+.floatMenu {
+  width: 40px;
+  right: 5%;
+  bottom: 20px;
+  position: fixed;
+  z-index: 9999;
+}
+.floatMenu div {
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  margin-top: 1rem;
+  border-radius: 20px;
+  background: #1a1918;
+  display: table;
+}
+.floatMenu div:hover {
+  background: #302e2a;
+  transition: 0.2s;
+}
+.floatMenu div a {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+.floatMenu div img {
+  display: inline-block;
+  cursor: pointer;
+}
+.floatMenu .goForm img {
+  width: 25px;
+}
+.floatMenu .kakao img {
+  width: 25px;
+}
+.floatMenu .blog img {
+  width: 22px;
+}
+.floatMenu .insta img {
+  width: 22px;
+}
+.floatMenu .call img {
+  width: 22px;
+}
+.floatMenu .top img {
+  width: 22px;
+}
+
+/* main */
+/* .mainVisual{
+	position: relative;
+	background-image: url(../img/visual_bg.png);
+	background-size: cover;
+	background-position: 25%;
+	background-repeat: no-repeat;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 0px 0 0;
+	z-index: 0;
+	height: 100vh;
+}
+.mainVisual .right_txt { 
+	display: inline-block;
+	position: absolute;
+	left: 50%;
+	top: 220px;
+	margin-left: -220px;
+  }
+  .visual_limg01 {
+	position: absolute;
+	left: 50%;
+	margin-left: -750px;
+	top: 480px;
+  }
+  .visual_limg02 {
+	position: absolute;
+	left: 50%;
+	margin-left: -360px;
+	top: 30px;
+  }
+  .visual_limg03 {
+	position: absolute;
+	left: 50%;
+	margin-left: -100px;
+	top: 90px;
+  }
+  .visual_limg04 {
+	position: absolute;
+	left: 50%;
+	margin-left: 540px;
+	top: 600px;
+  }  */
+
+.thank_u {
+  text-align: center;
+  background-color: #1b1b1b;
+  padding: 2.6rem;
+}
+.thank_u h4 {
+  font-family: "Cafe24Dangdanghae";
+  color: #f1e018;
+  font-size: 2rem;
+}
+
+.thank_u p {
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 400;
+  padding-top: 1.2rem;
+}
+
+body {
+  background-color: #2c2929;
+}
+.Visual .mobileW {
+  background-image: url(../img/sec01m_img.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 56vh;
+}
+
+.sec01 .mobileW {
+  background-image: url(../img/sec02m_img.png);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.sec02 .mobileW {
+  background-image: url(../img/sec03m_img.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 75vh;
+}
+
+.sec03 .mobileW {
+  background-image: url(../img/sec04m_img.png);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.sec04 .mobileW {
+  background-image: url(../img/sec05m_img.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 90vh;
+}
+
+.sec05 .mobileW {
+  background-image: url(../img/sec06m_img.png);
+  background-size: cover;
+  background-position: center;
+  height: 135vh;
+}
+
+.sec06 .mobileW {
+  background-image: url(../img/sec07m_img.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 70vh;
+}
+
+.sec07 .mobileW {
+  background-image: url(../img/sec08m_img.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 61vh;
+}
+
+.sec08 .mobileW {
+  background-image: url(../img/sec09m_img.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 50vh;
+}
+
+.sec09 .mobileW {
+  background-repeat: no-repeat;
+  background-image: url(../img/sec10m_img.png);
+  background-size: contain;
+  background-position: center;
+  height: 78vh;
+}
+
+.pcW {
+  display: none;
+}
+.mobileW {
+  display: block;
+}
+
+/* 피씨코딩 */
+@media screen and (min-width: 375px) {
+}
+
+@media screen and (min-width: 412px) {
+}
+
+@media screen and (min-width: 415px) {
+}
+
+@media screen and (min-width: 1200px) {
+  .floatMenu {
+    width: 60px;
+    right: 20px;
+  }
+  .floatMenu div {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+  }
+  .floatMenu .goForm img {
+    width: auto;
+  }
+  .floatMenu .kakao img {
+    width: auto;
+  }
+  .floatMenu .blog img {
+    width: auto;
+  }
+  .floatMenu .insta img {
+    width: auto;
+  }
+  .floatMenu .call img {
+    width: auto;
+  }
+  .floatMenu .top img {
+    width: auto;
+  }
+
+  .pcW {
+    display: block;
+  }
+  .mobileW {
+    display: none;
+  }
+
+  .Visual .pcW {
+    background-image: url(../img/sec01_img.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+
+  .sec01 .pcW {
+    background-image: url(../img/sec02_img.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+
+  .sec02 .pcW {
+    background-image: url(../img/sec03_img.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+
+  .sec03 .pcW {
+    background-image: url(../img/sec04_img.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+
+  .sec04 .pcW {
+    background-image: url(../img/sec05_img.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+
+  .sec05 .pcW {
+    background-image: url(../img/sec06_img.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+
+  .sec06 .pcW {
+    background-image: url(../img/sec07_img.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+
+  .sec07 .pcW {
+    background-image: url(../img/sec08_img.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+
+  .sec08 .pcW {
+    background-image: url(../img/sec09_img.png);
+    background-size: cover;
+    background-position: center;
+    height: 101vh;
+  }
+
+  .sec09 {
+    position: relative;
+  }
+  .sec09 .pcW {
+    background-image: url(../img/sec10_img.png);
+    background-size: cover;
+    background-position: center;
+    height: 125vh;
+  }
+  .thank_u {
+    text-align: center;
+    background-color: #1b1b1b;
+    padding: 2rem;
+  }
+  .thank_u h4 {
+    font-family: "Cafe24Dangdanghae";
+    color: #f1e018;
+    font-size: 3rem;
+  }
+
+  .thank_u p {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 400;
+    padding-top: 1.2rem;
+  }
+}

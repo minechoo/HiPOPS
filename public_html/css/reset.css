@@ -1,0 +1,80 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html,
+body {
+	background-color: #fff;
+	font-family: 'Pretendard', sans-serif;
+	font-weight: 400;
+	letter-spacing: -0.9px;
+	scroll-behavior: smooth;
+	overflow-x: hidden;
+	--animate-duration: 2s;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+ul,
+ol,
+li {
+	list-style-type: none;
+}
+#container {
+	position: relative;
+}
+img {
+	height: auto;
+	max-width: 100%;
+	border: 0 none;
+	font-size: 0;
+	line-height: 0;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+input {
+	font-family: inherit;
+	-webkit-border-radius: 0;
+	border: 0;
+}
+textarea {
+	resize: none;
+}
+p,
+span {
+	word-wrap: break-word;
+	word-break: keep-all;
+}
+.clearfix:after {
+	content: '';
+	clear: both;
+	display: block;
+}
+.root_daum_roughmap {
+	width: 100% !important;
+}
+
+.text_ell {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.text_ell3 {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 3; /* 라인수 */
+	-webkit-box-orient: vertical;
+	word-wrap: break-word;
+	line-height: 1.2em;
+	height: 3.6em;
+}
+.hide {
+	position: absolute;
+	top: -9999px;
+	visibility: hidden;
+}

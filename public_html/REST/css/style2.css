@@ -1,0 +1,573 @@
+.dimension-fix {
+  animation: dimension-fix 4s forwards;
+  opacity: 0;
+  animation-delay: 0.6s;
+} /*횆쨀쨍짱*/
+@keyframes dimension-fix {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.txtbg {
+  background: url(../img/visual_txtbg.png);
+  animation: black_bg_ 200s 0s infinite linear;
+  width: 100%;
+  height: 1148px;
+}
+
+@keyframes black_bg {
+  0% {
+    background: url(../img/visual_txtbg.png) 0 0 fixed;
+  }
+  100% {
+    background: url(../img/visual_txtbg.png) -5000px 0 fixed;
+  }
+}
+
+#header {
+  top: 20px;
+  z-index: 100000;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 30px auto 0;
+  max-width: 1920px;
+  min-width: 1200px;
+  text-align: Center;
+  height: 64px;
+}
+#header h1 {
+  float: left;
+  margin-left: 40px;
+}
+#header p {
+  float: right;
+  margin-right: 40px;
+  font-size: 44px;
+  font-family: "Oswald";
+  font-weight: 700;
+  letter-spacing: -0.09px;
+}
+#header p span {
+  background: url("../img/top_telicon.png") no-repeat 2px center;
+  color: #252525;
+  font-size: 12px;
+  letter-spacing: 7px;
+  padding-left: 22px;
+  height: 17px;
+  display: block;
+  margin-bottom: -5px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.main_visual {
+  background-image: url("../img/visual_bg.png");
+  background-size: cover;
+  background-position: 25%;
+  background-repeat: no-repeat;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0px 0 0;
+  z-index: 0;
+  height: 100vh;
+}
+.main_visual .right_txt {
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  top: 220px;
+  margin-left: -220px;
+}
+.main_visual .right_txt p {
+  display: block;
+  margin: 20px 0;
+}
+.visual_limg01 {
+  position: absolute;
+  left: 50%;
+  margin-left: -750px;
+  top: 480px;
+}
+.visual_limg02 {
+  position: absolute;
+  left: 50%;
+  margin-left: -360px;
+  top: 30px;
+}
+.visual_limg03 {
+  position: absolute;
+  left: 50%;
+  margin-left: -100px;
+  top: 90px;
+}
+.visual_limg04 {
+  position: absolute;
+  left: 50%;
+  margin-left: 540px;
+  top: 600px;
+}
+
+.visual_line {
+  position: absolute;
+  bottom: -90px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+
+
+.over_bg {
+  width: 100%;
+  position: absolute;
+  top: 735px;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: 30;
+  background: url("../img/over_bg.png") no-repeat center 0;
+  height: 318px;
+}
+/*�꾩�*/
+.hand_box {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.hand_mask {
+  width: 507px;
+  height: 400px;
+  position: absolute;
+  top: 309px;
+  left: 50%;
+  transform: rotate(350deg) translatex(-60%);
+  z-index: 20;
+  overflow: hidden;
+}
+.hand {
+  background: url("../img/p_img.png") no-repeat center 0px;
+  position: relative;
+  width: 507px;
+  height: 448px;
+  animation: rockit 0.8s ease infinite alternate 1s;
+  z-index: 0;
+  transform: translatey(150px) rotate(-20deg);
+}
+
+@keyframes rockit {
+  from {
+    transform: translatey(150px) rotate(-20deg);
+  }
+  to {
+    transform: translatey(120px) rotate(0deg);
+  }
+}
+
+.txtbg {
+  position: absolute;
+  top: 0;
+  opacity: 0.6;
+  z-index: 0;
+}
+
+.center_txt {
+  position: relative;
+  display: inline-block;
+  margin: 0 auto;
+  z-index: 10;
+  top: -20px;
+}
+.center_txt p {
+  float: left;
+}
+.center_txt span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -100px;
+  top: 20px;
+}
+
+.cd_box {
+  position: absolute;
+  left: 50%;
+  width: 620px;
+  height: 620px;
+  margin-left: 16px;
+  overflow: hidden;
+}
+.cd_box p {
+  position: absolute;
+  z-index: 10;
+}
+.cd_box p.cd01 {
+  z-index: 10;
+  margin-left: -160px;
+  top: 80px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.7);
+  border-radius: 100%;
+
+  animation: rint;
+  animation-duration: 0.8s;
+  /*animation-iteration-count: infinite;*/ /*臾댄븳諛섎났*/
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+@keyframes rint {
+  from {
+    left: -500px;
+    transform: rotate(180deg);
+  }
+  50% {
+    left: -200px;
+  }
+  to {
+    left: 0px;
+    transform: rotate(360deg);
+  }
+}
+@keyframes rint2 {
+  from {
+    left: -200px;
+    transform: rotate(180deg);
+  }
+  50% {
+    left: -100px;
+  }
+  to {
+    left: 0px;
+    transform: rotate(360deg);
+  }
+}
+
+.cd_box p.cd02 {
+  z-index: 5;
+  margin-left: 60px;
+  top: 80px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.7);
+  border-radius: 100%;
+
+  animation: rint2;
+  animation-duration: 0.7s;
+  /*animation-iteration-count: infinite;*/ /*臾댄븳諛섎났*/
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+.p_motion {
+  animation: p_motion 1s linear 0s alternate;
+}
+
+@keyframes p_motion {
+  0% {
+    opacity: 0;
+    background: url("../img/txt_01.png") no-repeat center 0;
+    margin-left: -400px;
+    width: 500px;
+    height: 500px;
+  }
+  100% {
+    opacity: 1;
+    background: url("../img/txt_01.png") no-repeat center 0;
+    margin-left: -320px;
+    width: 500px;
+    height: 500px;
+  }
+}
+.p_motion02 {
+  animation: p_motion02 1s linear 0.4s alternate;
+}
+
+@keyframes p_motion02 {
+  0% {
+    opacity: 0;
+    background: url("../img/txt_01.png") no-repeat center 0;
+    margin-left: -150px;
+    width: 500px;
+    height: 500px;
+  }
+  100% {
+    opacity: 1;
+    background: url("../img/txt_01.png") no-repeat center 0;
+    margin-left: -180px;
+    width: 500px;
+    height: 500px;
+  }
+}
+
+.center_box {
+  width: 1350px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#container {
+  
+  text-align: center;
+}
+.con01 {
+  overflow: hidden;
+  background-image: url("../img/con01_bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: auto;
+  position: relative;
+  padding: 3% 0;
+  box-sizing: border-box;
+}
+.con01 h2 {display: inline-block;
+  padding: 8% 2% 0;
+}
+.con01 div{float: left; margin-left: 2%;}
+
+.point {
+  animation: de_b 3s linear 0s infinite alternate;
+  position: absolute;
+}
+
+.contents{
+  background-image: url("../img/container_bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: auto;
+}
+
+.con02 .point {
+  top: 160px;
+  left: 50%;
+  margin-left: 190px;
+}
+.con03 .point {
+  top: 20px;
+  left: 50%;
+  margin-left: 220px;
+}
+.con04 .point {
+  top: 50px;
+  left: 50%;
+  margin-left: 270px;
+}
+
+@keyframes de_b {
+  0% {
+    transform: translate(0px, 5px);
+  }
+  20% {
+    transform: scale(1) translate(10px, 10px);
+  }
+  40% {
+    transform: scale(1) translate(20px, 20px);
+  }
+  60% {
+    transform: scale(1) translate(-10px, 30px);
+  }
+  100% {
+    transform: scale(1) translate(10px, 40px);
+  }
+}
+
+
+.con02 {
+    margin: 0 auto;
+    padding: 4% 0;
+    position: relative;
+    z-index: 0;
+}
+.con02 h2 {
+  padding: 20% 2% 6%;
+}
+.con02 .acter ul{overflow: hidden;}
+.con02 .acter ul li{float: left; width: 46%; padding: 2%;}
+
+
+.con03 {margin: 10% 0 0;
+  position: relative;
+  padding: 5% 0 0;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 0;
+}
+.con03 h2 {
+display: inline-block;
+padding: 0% 2% 6%;
+}
+.con03 .face ul{overflow: hidden;}
+.con03 .face ul li{float: left; width: 80%; padding: 3%;}
+
+
+.con04 {height: auto; margin: 10%; 0 0}
+.con04 ul{
+  background-image: url("../img/con04_bg.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: auto;
+  position: relative;
+  box-sizing: border-box;
+}
+  .con04 h2 {padding: 8% 0 10%;}
+  .con04 ul {overflow: hidden;}
+  .con04 ul li{float: left;width: 80%; padding-left: 0;padding: 10% 10% 1%;}
+
+.con05 {padding: 10% 0 20%;}
+.con05 ul{overflow: hidden;}
+.con05 ul li{ width: 20%;padding: 5%;float: left;
+
+}
+
+
+.con06 {
+  background: url("../img/con06_bg.png") no-repeat center 0;
+  position: relative;
+  padding: 10% 0;
+  box-sizing: border-box;
+}
+
+
+
+
+#footer {
+  width: 100%;
+  color: #fff;
+  background: #272626;
+  text-align: center;
+  font-size: 12px;
+  line-height: 16px;
+  padding: 3% 0;
+  font-weight: 400;
+}
+#footer .copy_line {
+  padding: 0 8px;
+  background: url("../img/copy_line.gif") no-repeat center center;
+}
+#footer p {
+  font-weight: bold;
+  padding: 1.8rem 0 1rem;
+  font-size: 1.4rem;
+}
+#footer small {
+  color: #707070;
+  display: block;
+}
+#footer address {
+  line-height: 19px;
+}
+
+
+.close_btn {
+  position: absolute;
+  width: 30px;
+  right: 0;
+  top: 0px;
+  background: #2e2c2b;
+  padding: 10px 9px 11px 4px;
+  border-bottom-left-radius: 10px;
+  border-radius: 0 5px 0 5px;
+}
+.close_btn img {
+  width: 72%;
+}
+
+.bottom_call{
+  color: rgb(24, 24, 24);
+  bottom: 0;
+  width: 100%;
+  position: fixed;
+  transition: 0.5s;
+  text-align: center;
+  background: #f1ab28;
+  height: 60px;
+  box-shadow: 0 0 40px rgb(0 0 0 / 50%);
+  box-sizing: border-box; 
+  overflow: hidden;}
+
+.bottom_call h2 {
+  float: inherit;
+  font-family: TmonMonsori;
+  font-size: 1.6rem;
+}    
+.bottom_call .submit{float: inherit;
+  text-align: center;
+  margin: 0 auto;}
+.bottom_call .submit img{display: inline-block; width: 10%;}
+.txt_point {
+  animation: txt_point 0.9s linear 0s infinite alternate;
+}
+
+@media screen and (min-width: 1200px) {
+  .main_visual {
+    background-image: url("../img/visual_bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0px 0 0;
+    z-index: 0;
+    height: 100vh;
+  }
+  .con01 {min-width: 1200px;
+    overflow: none;
+    background-image: url("../img/con01_bg.png");
+    background-size: cover;
+    background-position: 25%;
+    background-repeat: no-repeat;
+    height: auto;
+    position: relative;
+    padding: 3% 0;
+    box-sizing: border-box;}
+    .con01 h2 {
+      padding: 8% 0 0;
+    }
+
+
+    .con02 {
+      min-width: 1200px;
+      margin: 0 auto;
+      padding: 5% 0;
+      position: relative;
+      z-index: 0;
+  }
+  .con02 h2 {
+    padding: 8% 2% 5%;
+  }
+  .con02 .acter ul{overflow: hidden;width: 1200px;
+    margin: 0 auto;}
+  .con02 .acter ul li{float: left; width: 20%; padding-left: 3%;}
+  
+  .con03 {
+    margin: 0 auto;
+    padding: 5% 0;
+    position: relative;
+    z-index: 0;
+}
+  .con03 h2 {
+  display: inline-block;
+  padding: 0 2% 5%;
+}
+  .con03 .face ul{overflow: hidden;width: 1200px;
+    margin: 0 auto;}
+  .con03 .face ul li{float: left; width: 35%; padding-left: 10%;}
+
+  .con04 {}
+  .con04 h2 {padding: 8% 0 6%;}
+  .con04 ul {overflow: hidden;margin: 0;}
+  .con04 ul li{float: left;width: 35%; padding: 0;padding-left: 10%;}
+
+  .con05 ul{overflow: hidden;}
+  .con05 ul li {padding: 6%;}
+  
+} 

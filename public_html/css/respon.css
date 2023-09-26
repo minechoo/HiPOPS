@@ -1,0 +1,391 @@
+@media screen and (min-width: 1px) and (max-width: 1600px) {
+	.w1630 {
+		padding: 0 20px;
+	}
+}
+@media screen and (min-width: 1024px) and (max-width: 1600px) {
+	#section03 .sec03_bot ul li h6 {
+		font-size: 2.4375rem;
+	}
+	#section03 .sec03_bot ul li p {
+		font-size: 1.7rem;
+	}
+	#section03 .sec03_bot ul li span {
+		font-size: 1.2rem;
+		line-height: 1.6rem;
+	}
+}
+@media screen and (min-width: 1px) and (max-width: 1200px) {
+	html,
+	body {
+		font-size: 14px;
+	}
+	#header {
+		padding: 25px 20px;
+	}
+	#header .logo {
+		left: 20px;
+	}
+	#header .logo .logo_b {
+		width: 200px;
+	}
+	.m_hide {
+		display: none;
+	}
+	.m_hide_in {
+		display: none;
+	}
+	.m_show {
+		display: block;
+	}
+	#section03 .sec03_bot ul {
+		grid-template-columns: repeat(2, 1fr);
+	}
+	#section03 .sec03_bot ul li::after {
+		display: none;
+	}
+	#section05 .step_box .step_bot .audition_img01,
+	#section05 .step_box .step_bot .audition_img02,
+	#section05 .step_box .step_bot .audition_img03 {
+		display: none;
+	}
+	#section05 .step_box .step_ul li {
+		padding: 20px;
+	}
+	#section05 .audition_gif {
+		margin-top: 10px;
+		max-width: 65%;
+	}
+	#section05 .audition_gif img {
+		border-radius: 30px;
+	}
+	#section07 .tit_box {
+		width: 100%;
+	}
+	#section07 .form_box {
+		width: 100%;
+		margin-top: 30px;
+	}
+}
+
+@media screen and (min-width: 1px) and (max-width: 1024px) {
+	#section01 .tit {
+		font-size: 13rem;
+	}
+	#section01 p {
+		font-size: 2.4375rem;
+	}
+	#section01 .txt_box .svg1_txt,
+	#section01 .txt_box .svg2_txt {
+		display: none;
+	}
+	#section02 {
+		margin-bottom: 10%;
+	}
+	#section02 .company_intro {
+		position: relative;
+		left: 0;
+		top: -5px;
+	}
+	#section03 {
+		border-top-left-radius: 0;
+		border-top-right-radius: 0;
+		padding: 20% 20px 10%;
+	}
+	#section03 .sec03_bot {
+		margin: 0;
+		margin-top: 5%;
+	}
+	#section03 .svg3_txt {
+		left: 10px;
+	}
+	#section03 .sec03_bot ul {
+		margin-top: 60px;
+		gap: 10px;
+	}
+	#section03 .sec03_bot ul li {
+		aspect-ratio: auto;
+		min-height: 300px;
+		/* transition: none; */
+	}
+	#section03 .sec03_bot ul li.li01,
+	#section03 .sec03_bot ul li.li03 {
+		margin-top: 0;
+	}
+	#section03 .sec03_bot ul li::before {
+		display: none;
+	}
+	#section03 .sec03_bot ul li .li_inner {
+		border-radius: 10px;
+	}
+	#section03 .sec03_bot .bot_tit {
+		margin: 10% 0 15%;
+	}
+	#section03 .svg3_wrap.on #svg3_txt {
+		animation: none;
+		stroke-dasharray: 0;
+		stroke-dashoffset: 0;
+	}
+	#section05 .svg4_wrap.on #svg4_txt {
+		animation: none;
+		stroke-dasharray: 0;
+		stroke-dashoffset: 0;
+	}
+	.svg_wrap svg {
+		display: block;
+	}
+	#section04 {
+		padding: 20% 20px 0;
+	}
+	#section04 .swiper-button-prev,
+	#section04 .swiper-button-next {
+		display: none;
+	}
+	#section04 .tit {
+		font-size: 3.5rem;
+		margin-bottom: 30px;
+	}
+	#section05 {
+		padding-top: 20%;
+	}
+	#section05 .sec05_top .tit {
+		font-size: 3.5rem;
+	}
+	#section06 {
+		padding: 15% 0;
+	}
+	#section06 .left_box {
+		width: 100%;
+	}
+	#section06 .right_box {
+		width: 100%;
+		margin-top: 30px;
+	}
+	#section07 .form_inner > div {
+		width: 100%;
+	}
+	#section07 .form_inner .right_box {
+		margin: 30px 0;
+	}
+	#section07 .form_box .gray_box {
+		min-height: 200px;
+	}
+	#section07 .form_box .w50 {
+		margin-top: 0;
+	}
+	#section07 .form_box .w50 > div {
+		width: 100%;
+		margin-top: 10px;
+	}
+	#section07 .submit_btn {
+		margin-top: 100px;
+	}
+	#footer {
+		padding: 50px 20px;
+	}
+	#footer .footer_inner {
+		flex-wrap: wrap;
+	}
+	#footer .info {
+		width: 100%;
+		margin-top: 5%;
+	}
+	#footer .info .txt {
+		text-align: left;
+	}
+	#footer .logo img {
+		width: 200px;
+	}
+}
+
+@media screen and (min-width: 1px) and (max-width: 768px) {
+	html,
+	body {
+		font-size: 12px;
+	}
+	.wingBannerWrap {
+		right: 20px;
+		bottom: 20px;
+	}
+	.wingBannerWrap.scroll {
+		bottom: 300px;
+	}
+	.wingBannerWrap li {
+		width: 40px;
+		height: 40px;
+	}
+	.wingBannerWrap li:not(:last-child) {
+		margin-bottom: 7px;
+	}
+	#section01 {
+		padding: 15% 0;
+	}
+	#section01 .tit {
+		font-size: 9rem;
+	}
+	#section01 .sec01_gif {
+		max-width: 90%;
+	}
+	#section01 .txt_box {
+		margin-top: 15%;
+		text-align: left;
+	}
+	#section01 .txt_box .txt2 {
+		margin: 10px 0 40px;
+	}
+	#section03 .sec03_top .illust {
+		width: 350px;
+	}
+	#section03 .sec03_bot ul li .li_inner {
+		padding: 15px;
+	}
+	#section03 .sec03_bot ul li h6 {
+		font-size: 3rem;
+	}
+	#section03 .sec03_bot ul li p {
+		font-size: 2.1rem;
+	}
+	#section03 .sec03_top h5 {
+		text-align: left;
+	}
+	#section03 .sec03_top p {
+		text-align: left;
+	}
+	#section05 .svg4_wrap svg {
+		height: 200px;
+	}
+	#section05 .step_box .step_ul {
+		grid-template-columns: repeat(2, 1fr);
+		gap: 5px;
+		margin: 15px 0 20px;
+	}
+	#section05 .step_box .step_ul li {
+		border-top-left-radius: 15px;
+	}
+	#section05 .down_wrap {
+		flex-wrap: wrap;
+		margin-top: 20px;
+	}
+	#section05 .down_wrap a {
+		width: 100%;
+		margin-left: 0 !important;
+	}
+	#section05 .c_down_btn {
+		margin: 3px 0;
+	}
+	#section05 .step_box .step_info li .dep02 {
+		flex-wrap: wrap;
+	}
+	#section05 .step_box .step_info li .dep02 .tit {
+		width: 100%;
+		margin-bottom: 5px;
+	}
+	#section05 .step_box .step_info li .dep02 .desc {
+		width: 100%;
+	}
+	#section06 .left_box li {
+		padding: 8px 10px;
+	}
+	#section06 .left_box li .tit {
+		width: 100px;
+	}
+	#section06 .left_box li .desc {
+		width: calc(100% - 100px);
+	}
+	#section07 {
+		padding: 20% 0 10%;
+	}
+	#section07 .submit_btn {
+		margin-top: 50px;
+		width: 150px;
+		height: 60px;
+		letter-spacing: 0.2rem;
+	}
+	#section07 .form_box .gray_box {
+		padding: 20px;
+	}
+	#section07 .form_box textarea {
+		padding: 20px;
+	}
+}
+
+@media screen and (min-width: 1px) and (max-width: 499px) {
+	html,
+	body {
+		font-size: 11px;
+	}
+	#header .sitemap ul li a {
+		font-size: 1.7rem;
+	}
+	#header .logo .logo_b {
+		width: 150px;
+	}
+	#section02 .company_intro ul li {
+		font-size: 1.5rem;
+	}
+	#section03 .sec03_top h5 {
+		font-size: 3rem;
+	}
+	#section03 .svg3_txt {
+		width: 160px;
+	}
+	#section03 .sec03_top p {
+		font-size: 1.7rem;
+	}
+	#section05 .sec05_top .tit {
+		font-size: 3rem;
+	}
+	#section05 .step_box .step_ul li {
+		padding: 15px;
+	}
+	#section05 .step_box .step_tit {
+		flex-wrap: wrap;
+	}
+	#section05 .step_box .step_tit .tit02 {
+		width: 100%;
+		font-size: 1.2rem;
+	}
+	#section05 .step_box .step_ul li h6 {
+		font-size: 1.7rem;
+	}
+	#section05 .step_box .step_info li .desc,
+	#section05 .step_box .step_info li .tit {
+		font-size: 1.5rem;
+	}
+	#section05 .c_down_btn {
+		padding: 13px 25px;
+	}
+	#section06 .left_box li .desc,
+	#section06 .left_box li .tit {
+		font-size: 1.4rem;
+	}
+	#section07 .tit_box h5 {
+		font-size: 3rem;
+	}
+	#section07 .tit_box .call_p {
+		font-size: 1.2rem;
+	}
+	#section07 .form_box label {
+		font-size: 1.5rem;
+	}
+	.c_down_btn span {
+		font-size: 1.6rem;
+	}
+	#section07 .form_box .gray_box p {
+		font-size: 1.2rem;
+	}
+	.check_box_wrap .check_txt {
+		font-size: 1.4rem;
+	}
+	#section07 .form_box textarea,
+	#section07 .form_box input {
+		font-size: 1.4rem;
+	}
+	#section07 .form_box textarea::placeholder,
+	#section07 .form_box input::placeholder {
+		font-size: 1.4rem;
+	}
+	#footer .info .txt {
+		font-size: 1.2rem;
+	}
+}
